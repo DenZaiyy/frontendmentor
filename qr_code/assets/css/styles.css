@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Outfit-Regular;
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit-Bold;
+    src: url(../fonts/Outfit-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* DEBUT - CONTENUE DANS LA BOX */
+main {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 15px;
+}
+
+main img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+main h1 {
+    margin-top: 15px;
+    text-align: center;
+    font-family: Outfit-Bold;
+    font-size: 1.50em;
+    color: hsl(218, 44%, 22%);
+}
+
+main p {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Outfit-Regular;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%)
+}
+
+/* FIN - CONTENUE DANS LA BOX */
+
+/* DEBUT - FOOTER */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* FIN - FOOTER */
